@@ -9,10 +9,13 @@
   },
 	"lint-staged": {
 		"*.js": [
-      "prettier --write",
+      "prettier --single-quote --write",
       "git add"
     ]
   },
+  "pre-commit": [
+    "precommit"
+  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/jason1213/learn_algorithm_for_javasript.git"
