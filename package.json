@@ -9,7 +9,7 @@
   },
 	"lint-staged": {
     "*.js": [
-      "prettier --write",
+      "prettier --write '{test/**/*.js}'",
       "git add"
     ]
   },
