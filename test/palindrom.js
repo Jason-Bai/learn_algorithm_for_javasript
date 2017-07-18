@@ -1,3 +1,4 @@
+// @format
 const assert = require('assert');
 const palindrom = require('../palindrom');
 const { checkPalindrom } = palindrom;
