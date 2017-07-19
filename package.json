@@ -5,10 +5,11 @@
   "main": "index.js",
   "scripts": {
     "test": "mocha",
-    "precommit": "lint-staged"
+    "precommit": "lint-staged",
+    "istanbul": "istanbul cover _mocha"
   },
-	"lint-staged": {
-		"*.js": [
+  "lint-staged": {
+    "*.js": [
       "prettier --single-quote --write \"{test/*.js}\"",
       "git add"
     ]
@@ -26,8 +27,10 @@
   "homepage": "https://github.com/jason1213/learn_algorithm_for_javasript#readme",
   "devDependencies": {
     "husky": "^0.14.3",
+    "istanbul": "^0.4.5",
     "lint-staged": "^4.0.2",
     "mocha": "^3.4.2",
-    "prettier": "^1.5.3"
+    "prettier": "^1.5.3",
+    "should": "^11.2.1"
   }
 }
