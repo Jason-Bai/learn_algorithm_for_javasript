@@ -1,4 +1,3 @@
-// @format
 const palindrom = require('./palindrom');
 const unique = require('./unique');
 
