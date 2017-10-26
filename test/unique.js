@@ -1,5 +1,5 @@
 const should = require('should');
-const unique = require('../unique');
+const unique = require('../programs/unique');
 const { uniq } = unique;
 
 /* eslint no-undef: "off" */

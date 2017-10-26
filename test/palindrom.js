@@ -1,5 +1,5 @@
 const should = require('should');
-const palindrom = require('../palindrom');
+const palindrom = require('../programs/palindrom');
 const { checkPalindrom } = palindrom;
 
 /* eslint no-undef: "off" */
